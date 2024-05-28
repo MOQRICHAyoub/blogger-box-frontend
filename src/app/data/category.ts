@@ -1,8 +1,9 @@
+// category.ts
 export interface Category {
-    id: string;
-    name: string;
-  }
-  
+  id: number;
+  name: string;
+}
+
 
 const CATEGORIES = [
     {

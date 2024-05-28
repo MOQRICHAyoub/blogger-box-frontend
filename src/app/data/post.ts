@@ -1,12 +1,13 @@
-import { Category } from "./category";
+import { Category } from './category';
 
 export interface Post {
-  id: string;
+  id: number;
   title: string;
   content: string;
-  createdDate: Date;
   category: Category;
+  createdDate: Date;
 }
+
 
 
 export const POSTS = [
