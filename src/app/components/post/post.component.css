@@ -1,3 +1,11 @@
+ul {
+    margin: 25px;
+  }
+
+div {
+    margin: 25px;
+  }
+
 .post {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
@@ -29,4 +37,7 @@
     color: #999;
     margin-left: auto;  /* Aligne la date à droite */
   }
+
+  
+
   
