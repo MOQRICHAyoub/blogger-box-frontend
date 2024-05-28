@@ -7,7 +7,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostService } from './services/post.service';
 import { PostListComponent } from './post-list/post-list.component';
-import { PostListItemComponent } from './post-list-item/post-list-item.component'; // Importer PostListItemComponent
+import { PostListItemComponent } from './post-list-item/post-list-item.component';
+import { PostComponent } from './components/post/post.component'; // Importer PostListItemComponent
 
 
 
@@ -18,7 +19,8 @@ import { PostListItemComponent } from './post-list-item/post-list-item.component
     AppComponent,
     TopBarComponent,
     PostListComponent,
-    PostListItemComponent    
+    PostListItemComponent,
+    PostComponent    
   ],
   imports: [
     BrowserModule,
