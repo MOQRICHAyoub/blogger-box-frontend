@@ -11,6 +11,7 @@ import { PostListComponent } from './post-list/post-list.component';
 import { PostListItemComponent } from './post-list-item/post-list-item.component';
 import { PostComponent } from './components/post/post.component';
 import { AddPostComponent } from './components/post/add-post/add-post.component';
+import { DateFormatPipe } from './date-format.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AddPostComponent } from './components/post/add-post/add-post.component'
     PostListComponent,
     PostListItemComponent,
     PostComponent,
-    AddPostComponent
+    AddPostComponent,
+    DateFormatPipe
   ],
   imports: [
     BrowserModule,
