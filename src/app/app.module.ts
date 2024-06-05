@@ -9,9 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostService } from './services/post.service';
 import { PostListComponent } from './post-list/post-list.component';
 import { PostListItemComponent } from './post-list-item/post-list-item.component';
-import { PostComponent } from './components/post/post.component';
 import { AddPostComponent } from './components/post/add-post/add-post.component';
-import { DateFormatPipe } from './date-format.pipe';
 
 @NgModule({
   declarations: [
@@ -19,9 +17,7 @@ import { DateFormatPipe } from './date-format.pipe';
     TopBarComponent,
     PostListComponent,
     PostListItemComponent,
-    PostComponent,
-    AddPostComponent,
-    DateFormatPipe
+    AddPostComponent
   ],
   imports: [
     BrowserModule,
